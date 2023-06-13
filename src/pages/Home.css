@@ -1,0 +1,38 @@
+.styled-table{
+    border-collapse:collapse;
+    margin:auto;
+    font-size:0.9em;
+    font-family:sans-serif;
+    max-width:800px;
+    background-color: blue;
+    box-shadow:0 0 20px rgba(249, 52, 52, 0.15);
+}
+.styled-table thead tr{
+    background-color: rgb(0, 255, 102);
+    color:#ffffffff;
+    text-align:left;
+
+}
+.styled-table th,.styled-table td{
+    padding:12px 15px;
+}
+.styled-tabletbody tr{
+    border-bottom:1px solid #ffffffff;
+
+}
+.dropdown{
+    width:20%;
+    margin:5px;
+}
+.btn-reset{
+    background-color: darkolivegreen;
+    color:black;
+}
+.btn-active{
+    background-color: #808c4a;
+    color:black;
+}
+.btn-inactive{
+    background-color: #445f61;
+    color:black;
+}
